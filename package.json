@@ -1,0 +1,15 @@
+{
+  "name": "fuse-e2e-express",
+  "version": "1.0.0",
+  "description": "Minimal Express app for FUSE E2E journey test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "overrides": {
+    "cross-spawn": "7.0.5"
+  }
+}
